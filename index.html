@@ -1,43 +1,97 @@
 <html>
+  <!-- Jack Kinne
+  Melfi Perez -->
 <head>
   <title>Chocolate Pizza</title>
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <nav>
+      <img id="logo" src="imgs/DeliciousLogo.png" alt="Logo">
       <ul>
-        <li><img src="https://placehold.it/200x70/111" alt="Logo"> </li>
-        <li><a href="#">Nav item</a></li>
-        <li><a href="#">Nav item</a></li>
-        <li><a href="#">Nav item</a></li>
-        <li><a href="#">Nav item</a></li>
-        <li><a href="#">Nav item</a></li>
-        <li><a href="#">Nav item</a></li>
-        <li><a href="#">Nav item</a></li>
-        <li><a href="#">Nav item</a></li>
+        <li><a href="#"><img src="imgs/mail-icon.png"></a></li>
+        <li><a href="#"><img src="imgs/rss-icon.png"></a></li>
+        <li><a href="#"><img src="imgs/pint-icon.png"></a></li>
+        <li><a href="#"><img src="imgs/flic-icon.png"></a></li>
+        <li><a href="#"><img src="imgs/insta-icon.png"></a></li>
+        <li><a href="#"><img src="imgs/gp-icon.png"></a></li>
+        <li><a href="#"><img src="imgs/twit-icon.png"></a></li>
+        <li><a href="#"><img src="imgs/fb-icon.png"></a></li>
       </ul>
     </nav>
+    <div id="hrone"></div>
   </header>
   <main>
     <div id="main-content">
-      <h2>Chocolate Pizza</h2>
-      <h3>POSTED ON 14 JUNE 2019/ DESSERTS</h3>
-      <img src="https://placehold.it/960X450/111" alt="Pizza Pie">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque animi nisi doloribus. Ut esse inventore doloremque cumque sit quos quasi delectus mollitia, totam voluptas cum, distinctio harum? Harum, consectetur quas!</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt vel exercitationem quod voluptates ratione doloremque ducimus veniam molestias nobis expedita qui inventore, esse maxime eius accusamus modi magnam reiciendis laudantium.</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quos dolorem minima ipsam illo, autem distinctio? Ea, aliquid accusamus possimus esse nihil atque, molestiae saepe incidunt commodi voluptatum totam veritatis?</p>
-
-      <img src="https://placehold.it/960X450/111" alt="Recipe">
+      <h1 id="cp">Chocolate Pizza</h1>
+      <div id="graystuff">
+        <section id="date">
+          <h3 id="posted" class="print">POSTED ON 14 JUNE 2019/ DESSERTS</h3>
+        </section>
+        <section id="printicon">
+          <img id="picon" src="imgs/print-icon.png" alt="print here">
+          <h5 class="print">PRINT</h5>
+        </section>
+      </div>
+      <img src="imgs/choco-pizza.png" alt="Pizza Pie">
+      <section id="beautifulPPL">
+      <p>    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque animi nisi doloribus. Ut esse inventore doloremque cumque sit quos quasi delectus mollitia, totam voluptas cum, distinctio harum? Harum, consectetur quas!</p>
+      <br>
+      <p>    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt vel exercitationem quod voluptates ratione doloremque ducimus veniam molestias nobis expedita qui inventore, esse maxime eius accusamus modi magnam reiciendis laudantium.</p>
+      <br>
+      <p>    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quos dolorem minima ipsam illo, autem distinctio? Ea, aliquid accusamus possimus esse nihil atque, molestiae saepe incidunt commodi voluptatum totam veritatis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio illum est aspernatur consectetur architecto a repellendus distinctio ex eveniet. Quisquam, impedit. Corrupti voluptatum, nulla magnam modi eius quibusdam molestiae dolor!</p>
+      </section>
+      <section id="graphpaper">
+        <!-- <img src="https://placehold.it/960X450/111" alt="Recipe"> -->
+        <ul id="ingred1">
+          <li><input type="checkbox">1 1/2 cups milk</li>
+          <li><input type="checkbox">1/2 cup mascarpone</li>
+          <li><input type="checkbox">1/2 tsp pink salt</li>
+          <li><input type="checkbox">1 lb black mission figs</li>
+          <li><input type="checkbox">1/2 cup brown sugar</li>
+          <li><input type="checkbox">2-4 tbsp water</li>
+        </ul>
+        <ul id="ingred1">
+          <li><input type="checkbox">1 1/2 cups heavy cream</li>
+          <li class="strike"><input type="checkbox" checked="checked">1/3 granulated sugar</li>
+          <li class="strike"><input type="checkbox" checked="checked">2 egg yolks</li>
+          <li><input type="checkbox">1 lemon, juiced</li>
+          <li><input type="checkbox">2 tbsp butter</li>
+          <li><input type="checkbox">1 cup honey roasted pecans, roughly chopped</li>
+        </ul>
+      </section>
 
     </div>
 
+    <div id="hrtwo"></div>
+
     <div id="reviews">
-      <button>SHARE RECIPE</button>
+      <section id="bio">
+        <img src="imgs/van-pic.png">
+        <h3>
+          Vanessa Stevenson
+        </h3>
+        <p>
+          Food enthusiast, photography fan.  Add a pinch of raw foodism and that's pretty much who I am.
+        </p>
+      </section>
+      <section id="btnsection">
+        <button id="btn">SHARE RECIPE</button>
+      </section>
     </div>
 
   </main>
-  <footer>Delicious &copy; 2019 All Rights Reserved
-    Proudly published with Ghost.</footer>
+  <footer>
+    <section>
+      <img id="fimg" src="imgs/logo.png">
+      <div id="line" ></div>
+      <p id="delicious">Delicious &copy; 2019 &#183; All Rights Reserved
+        <br>
+      Proudly published with Ghost.</p>
+
+    </section>  
+  </footer>
 </body>
 </html>
